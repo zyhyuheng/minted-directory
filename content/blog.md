@@ -3,12 +3,15 @@ layout: wide
 description: Read the best articles related to the directory.
 ---
 
-::center-hero{icon="tabler:zeppelin"}
-# Welcome to the Blog
+::center-hero
+---
+icon: tabler:zeppelin
+---
+# **欢迎来到博客**
 
 #description
-Read the best articles related to the directory.
-And earn SEO points by writing more articles.
+阅读与目录相关的最佳文章。通过撰写更多文章来赚取 SEO 积分。
 ::
 
-:blogGrid
+::blog-grid
+::

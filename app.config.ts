@@ -2,7 +2,7 @@ import type Emoji from "./components/OgImage/Emoji.vue";
 
 export default defineAppConfig({
   general: {
-    title: "Minted Directory",
+    title: "文档目录",
     logo: "",
     iconLogo: "fluent-emoji-flat:leaf-fluttering-in-wind",
   },
@@ -10,8 +10,8 @@ export default defineAppConfig({
     // override the general settings for seo tags.
     // leave empty for general priority.
     // url is necessary for correct function of seo module.
-    name: "Minted Directory",
-    description: "Example Description",
+    name: "文档目录",
+    description: "文档目录",
     url: "https://example.com",
     favicon: {
       image: "",
@@ -56,15 +56,27 @@ export default defineAppConfig({
       icon: "tabler:star",
       labelForCard: "Featured ✨",
     },
-    tags: [
-      { name: "SAAS", color: "blue" },
-      { name: "dashboard", color: "green" },
-      { name: "landing-page" },
-      { name: "toolbox" },
-      { name: "agency" },
-      { name: "markdown-based" },
-      { name: "basics", color: "indigo" },
-    ],
+    tags: [{
+      name: "j",
+      color: "blue",
+    }, {
+      name: "SAAS",
+      color: "blue",
+    }, {
+      name: "dashboard",
+      color: "green",
+    }, {
+      name: "landing-page",
+    }, {
+      name: "toolbox",
+    }, {
+      name: "agency",
+    }, {
+      name: "markdown-based",
+    }, {
+      name: "basics",
+      color: "indigo",
+    }],
     tagPages: {
       title: "Available {0} products:",
       description:
@@ -73,23 +85,27 @@ export default defineAppConfig({
   },
   header: {
     banner: {
-      show: true,
+      show: "",
       text: "Create your own directory website in minutes.",
       link: "https://minteddirectory.com",
       brandText: "MintedDirectory",
     },
     navbar: {
       colorModeSelector: true,
-      links: [
-        { name: "Directory", to: "/" },
-        { name: "Blog", to: "/blog" },
-        { name: "Advertise", to: "/advertise" },
-        {
-          name: "Analytics",
-          to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
-          target: "_blank",
-        },
-      ],
+      links: [{
+        name: "目录",
+        to: "/",
+      }, {
+        name: "博客",
+        to: "/blog",
+      }, {
+        name: "广告",
+        to: "/advertise",
+      }, {
+        name: "fen'x",
+        to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
+        target: "_blank",
+      }],
     },
     actionButton: {
       text: "Submit a starter",
@@ -100,7 +116,7 @@ export default defineAppConfig({
     description: "Best directory for my niche.",
     socials: {
       github: {
-        link: "",
+        link: "https://github.com/zyhyuheng",
         icon: "tabler:brand-github",
       },
       facebook: {

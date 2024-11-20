@@ -1,6 +1,6 @@
 ---
 cover: /logo.png
-featured: true
+featured: false
 tags:
   - SAAS
 ---
